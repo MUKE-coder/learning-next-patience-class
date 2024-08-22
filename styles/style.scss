@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5rem;
+}
+button {
+  padding: 12px 18px;
+  background-color: black;
+  color: wheat;
+  border-radius: 5px;
+}
+.heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 13px 0;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  padding: 15px;
+  max-width: 400px;
+  border: 1px solid grey;
+  margin: 5px;
+  img {
+    width: 100%;
+  }
+  button {
+    margin: 10px 0;
+  }
+}
+.card-desc {
+  padding: 16px 10px;
+}
